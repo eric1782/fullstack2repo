@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 1</title>
+</head>
+<body>
+    <header>
+        <!-- Titulo principal -->
+        <h1>Explorador HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="https://campusvirtual.duoc.cl/ultra/stream">ejemplo de boton a ava</a></li>
+                <li><a href="https://campusvirtual.duoc.cl/ultra/stream">ejemplo de boton a ava 2</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <!--Estructura-->
+    <section>
+        <h2>Contenido de la Clase 1</h2>
+        <p>En esta clase aprenderemos sobre la estructura básica de un documento HTML, incluyendo etiquetas esenciales como &lt;html&gt;, &lt;head&gt;, y &lt;body&gt;.</p>
+        
+        <h3>Etiquetas HTML</h3>
+        <ul>
+            <li>&lt;html&gt;: Define el inicio del documento HTML.</li>
+            <li>&lt;head&gt;: Contiene metadatos y enlaces a recursos externos.</li>
+            <li>&lt;body&gt;: Contiene el contenido visible de la página.</li>
+        </ul>
+        <pre>
+    </section>
+    <section>
+        <h2>(profe) Subtitulo estructura y sematica de HTML</h2>
+        <P> la siguiente es un tipo de forma de rellenar texto sin escribir realmente texto se usa escribiendo "lorem"</P>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cumque odio tempora cupiditate? Aut hic, dolorem corporis amet et ex minima qui sunt rerum in natus accusantium assumenda nam consequuntur.</P>
+        </section>
+    
+    <section>
+        <h3>Lista ordenada numericamente</h3>
+         <ol>
+             <li>Elemento 1</li>
+             <li>Elemento 2</li>
+             <li>Elemento 3</li>
+          </ol>
+    </section>
+    <section>
+        <h3>Lista ordenada alfabeticamente</h3>
+        <ul>
+            <li>Elemento A</li>
+            <li>Elemento B</li>
+            <li>Elemento C</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Tabla de ejemplo</h3>
+        <table border="1">
+            <tr>
+                <th>Titulo 1</th>
+                <th>Titulo 2</th>
+            </tr>
+            <tr>
+                <td>Dato 1.2</td>
+                <td>Dato 2.2</td>
+            </tr>
+            <tr>
+                <td>Dato 1.3</td>
+                <td>Dato 2.3</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Imagenes y enlaces</h2>
+        <p>Para insertar una imagen, usamos la etiqueta &lt;img&gt; y para crear un enlace, usamos la etiqueta &lt;a&gt;.</p>
+        <img src="bobesponja.png" alt="Imagen del bob esponja descargada en el compu">
+        <img src="https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif" alt="Imagen del bob esponja sacada de internet (necesario usar link de imagen)" width="300" height="400">
+        <h2> Boton abrir en nueva pestaña</h2>
+        <a target="_blank" href="https://www.duoc.cl">Ir a Duoc</a>
+    </section>
+
+    <!--formularios-->
+    <section>
+        <h2>Form que te lleva a una pagina</h2>
+        <form method=""action="https://www.google.com/?hl=es">
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder= "nombre" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="ejemplo@gmail.com"id="email" name="email" required>
+            <br>
+            <label for="cuadro opciones">Paises:</label>
+            <select name="opcion">
+                <option value="opcion1">Chile</option>
+                <option value="opcion2">Colombia</option>
+                <option value="opcion3">Brazil</option>
+            </select>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <section>
+        <h2>Formulario con checkbox y radio</h2>
+        <form>
+            <label for="checkbox1">Opción 1</label>
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+            <br>
+            <label for="checkbox2">Opción 2</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+            <br>
+            <label for="radio1">Opción A</label>
+            <input type="radio" id="radio1" name="radio" value="A">
+            <br>
+            <label for="radio2">Opción B</label>
+            <input type="radio" id="radio2" name="radio" value="B">
+        </form>
+    </section>
+    <section>
+        <h2>Formulario con textarea</h2>
+        <form>
+            <label for="textarea">Comentarios:</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <section>
+        <h2>Novedades en HTML 5</h2>
+        <HB>dialog</HB>
+        <br>
+        <dialog id="ventanaModal">
+            <p>Este es un mensaje de diálogo. </p>
+            <button onclick="document.getElementById('ventanaModal').close()">Cerrar</button>
+        </dialog>
+        <button onclick="document.getElementById('ventanaModal').showModal()">Abrir Dialogo</button>
+    </section>
+    
+
+        
+</body>
+</html>

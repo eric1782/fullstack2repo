@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="shortcut icon" href="https://www.duoc.cl/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    
+    <h1>HTML Clase 2</h1>
+
+    <h2>Block - inline</h2>
+    <div style="background-color: bisque;">
+        <p>Soy un elemento en bloque "Block"</p>
+    </div>
+
+    <span style="background-color: cadetblue;">Soy un elemento en linea "inline"</span>
+    <span style="background-color: cadetblue;">Soy un elemento en linea "inline"</span>
+    <span style="background-color: cadetblue;">Soy un elemento en linea "inline"</span>
+    
+    <h2>dash para borde de puntos, solid para cuadro solido</h2>
+
+    <canvas id="miCanvas" width="300" height="150" style="border:5px dashed black;">
+    </canvas>
+
+    <script>
+        //obtener el id del canvas
+        var canvas = document.getElementById('miCanvas');
+
+        //obteniendo el contexto de canvas en 2 dimensiones
+        var ctx = canvas.getContext('2d');
+
+        //dibujar dentro de canvas rectangulo rojito (por alguna razon no ta rojito :c)
+        ctx.fillStyle = "red";
+        ctx.fillRect(100, 50, 100, 50);
+
+        //dibujat un rectangulo azulito
+        ctx.strokeStyle = "blue";
+        ctx.strokeRect(0, 0, 100, 50);
+
+        //escribir un texto
+        ctx.font = "20px Arial";
+        ctx.fillStyle = "green";
+        ctx.fillText("Hola Mundo", 120, 30);
+    </script>
+        
+    </script>
+
+    <h3>Clase 2</h3>
+
+    <h4>Clase 2</h4>
+    <h5>Clase 2</h5>
+    <h6>Clase 2</h6>
+</body>
