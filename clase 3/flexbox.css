@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f3e8da;
+
+
+}
+h1{
+    margin-bottom: 50px;
+}
+
+/* Tarjetas */
+.tarjeta{
+    background-color: rgb(255, 175, 255);
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 2px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    gap: 20px;
+    
+}
+
+.contenedor-flex{
+    /*activamos flexbox*/
+    display: flex;
+    /* flex-direction: column, row-reverse, column-reverse, row(default) */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 10px;
+    height: 90vh;
+    border: 4px dashed #e7be8c;
+    background-color: rgb(236, 254, 215);
+    flex_basis: 120 px
+}
+
+.especial{
+    background-color: rgb(166, 253, 160);
+}
+.tarjeta2{
+    background-color: rgb(166, 253, 160);
+}
+.tarjeta3{
+    background-color: rgb(166, 253, 160);
+}
+.tarjeta4{
+    background-color: rgb(166, 253, 160);
+}
+.tarjeta5{
+    background-color: rgb(166, 253, 160);
+}
+.tarjeta6{
+    background-color: rgb(166, 253, 160);
+}
+.tarjeta7{
+    background-color: rgb(166, 253, 160);
+}
