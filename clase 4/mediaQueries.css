@@ -1,0 +1,83 @@
+h1{
+    font-family: "Playwrite CA",serif;
+    font-size: clamp(20px,6vw,70px);
+
+}
+
+.container{
+    color:rgb(244, 231, 214)
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(140, 100, 59, 1) 0%, rgba(235, 228, 188, 1) 90%, rgba(242, 241, 233, 1) 100%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: font-size 0.3s ease;
+}
+
+/*media queries*/
+/*para pantalla pequeña de smartphone*/
+
+@media (max-width: 576px){
+    .box{
+        background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    }
+    .texto{
+        font-size: 25px;
+        transition: font-size 0.3s ease;
+    }
+}
+
+/*para pantallas medianas de smartphone (cmo las tablets pequeñas)*/
+@Media (min-width: 577px) and (max-width: 768px){
+    .box{
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    }
+    .texto{
+        font-size: 30px;
+        transition: font-size 0.3s ease;
+    }
+}
+
+/*para tabletas grandes tipo ipad*/
+@Media(min-width: 769px) and (max-width: 992px){
+    .box{
+        background: linear-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);    
+    }
+    .texto{
+        font-size: 40px;
+        transition: font-size 0.3s ease;
+    }
+}
+/*laptops/desktops*/
+@Media(min-width: 993px) and (max-width: 1200px){
+    .box{
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);    }
+    .texto{
+        font-size: 50px;
+        transition: font-size 0.3s ease;
+    }
+}
+/*desktop mediano*/
+@Media(min-width: 1201px) and (max-width: 1400px){
+    .box{
+        background: radial-gradient(circle,rgba(43, 252, 116, 1) 0%, rgba(252, 70, 107, 1) 100%);}
+    .texto{
+        font-size: 60px;
+        transition: font-size 0.3s ease;
+    }
+}
+/*desktop grande*/
+@Media(min-width: 1401px){
+    .box{
+    background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);}
+    .texto{
+        font-size: 70px;
+        transition: font-size 0.3s ease;
+    }
+}
+    
+

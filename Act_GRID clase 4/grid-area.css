@@ -1,0 +1,91 @@
+/*reseteo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*layout general*/
+.layout{
+display: grid;
+/*definir el area de cada grid*/
+grid-template-areas: 
+    "encabezado encabezado"
+    "menu contenido"
+    "pie pie";
+    
+    /*definir las columnas*/
+    grid-template-columns: 200px 1fr;
+
+    /*definir las filas*/
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+.encabezado{
+    grid-area: encabezado;
+    background: radial-gradient(circle, rgb(221, 102, 153) 0%, #de4646 100%);
+    color: #ebebe6;
+    padding: 30px;
+    font-size: 24px;
+    
+}
+.menu{
+    grid-area: menu;
+    background-color: #d6d3db;
+    padding: 20px;
+    background: radial-gradient(circle,rgb(245, 240, 240) 0%, rgb(190, 186, 186) 100%);
+}
+.texto{
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 10px;
+}
+.linksMenu li{
+    margin: 20px 0;
+}
+.contenido{
+    grid-area: contenido;
+    background-color: #978585; /*fondo cmo el gif no tiene fondo, ta customizable*/
+    padding: 30px;
+    font-size: 18px;
+    background-image: url('https://i.pinimg.com/originals/63/c3/4f/63c34f62780759ecc2a8bd0bd77351d9.gif'); /* EJEMPLO: Reemplaza con tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.grid-tarjetas{
+    display: grid;
+    /*activamos modo grid*/
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:30px;
+}
+.tarjeta{
+    background-color: rgb(224, 176, 142);
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.tarjeta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+.pie{
+    padding:30px;
+    grid-area: pie;
+    background: radial-gradient(circle, rgb(221, 102, 153) 0%, #de4646 100%);
+    text-align: center;
+    color: #ffffe1;
+}
+
+
