@@ -1,0 +1,14 @@
+/*esto es porque soy muy especial con mis estilos y quiero cambiar la apariencia de mis cosos colapsables, no se si esto affecta el tema de lo de bootstrap, pero creo q esta bien agregar un .css. Si no, me dice y lo quito para que el estilo visual se mantenga centrado en el .html*/
+
+.accordion-verde {
+  background-color: #b2ebb5 !important;
+  color: #721c24 !important;
+}
+.accordion-amarillo {
+  background-color: #f8f8d7 !important;
+  color: #726e1c !important;
+}
+.accordion-rojo {
+  background-color: #f8d7da !important;
+  color: #721c24 !important;
+}
