@@ -1,0 +1,37 @@
+.custom-navbar {
+  background-image: url('https://images7.alphacoders.com/736/thumb-1920-736814.jpg');
+  background-size: cover;       /* Ajusta la imagen al tamaño del navbar */
+  background-repeat: no-repeat; /* Evita que se repita */
+  background-position: center;  /* Centra la imagen */
+}
+
+.custombody-bg{
+  background-image: url('https://images7.alphacoders.com/736/thumb-1920-736814.jpg');
+}
+
+.neon-text {
+  color: #e2eded; /* color tipo neón */
+  filter: drop-shadow(0 0 5px #c015b1) drop-shadow(0 0 10px #e9f1f1);
+  font-weight: bold;
+}
+.navbar-brand img {
+  filter: drop-shadow(0 0 5px #c015b1) drop-shadow(0 0 10px #e9f1f1);
+}
+
+.hero-section {
+    background-image: url('https://i.pinimg.com/originals/c7/2d/14/c72d14aeeb05acf7eefc46c3035b471d.gif');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
