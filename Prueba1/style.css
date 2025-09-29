@@ -1,12 +1,12 @@
 .custom-navbar {
-  background-image: url('https://images7.alphacoders.com/736/thumb-1920-736814.jpg');
+  background-color: #260023;
   background-size: cover;       /* Ajusta la imagen al tamaño del navbar */
   background-repeat: no-repeat; /* Evita que se repita */
   background-position: center;  /* Centra la imagen */
 }
 
 .custombody-bg{
-  background-image: url('https://images7.alphacoders.com/736/thumb-1920-736814.jpg');
+  background-color: #5c007a;
 }
 
 .neon-text {
@@ -34,4 +34,8 @@
 
 .hero-section p {
     font-size: 1.2rem;
+}
+
+.bg-custom {
+    background-color: #260023;
 }
